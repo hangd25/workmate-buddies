@@ -5,9 +5,9 @@ class Info extends Component {
     constructor() {
         super()
         this.state = {
-            firstName: "";
-            lastName: "";
-            isFriendly: false
+            firstName: "",
+            lastName: "",
+            isFriendly: false,
             gender: ""
         }
         this.handleChange = this.handleChange.bind(this)
